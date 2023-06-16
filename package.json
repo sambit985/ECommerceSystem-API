@@ -1,0 +1,25 @@
+{
+  "name": "ecommercesystem-rest",
+  "version": "1.0.0",
+  "description": "created REST API for e-commerce system using Node.js. The Api has include product, product variant and search functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Mongodb"
+  ],
+  "author": "Sambit Kumar Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jest": "^29.5.0",
+    "mongoose": "^7.3.0",
+    "supertest": "^6.3.3"
+  }
+}
